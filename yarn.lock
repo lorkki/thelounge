@@ -3748,9 +3748,8 @@ ipaddr.js@^1.5.2:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.8.1.tgz#fa4b79fa47fd3def5e3b159825161c0a519c9427"
 
-irc-framework@4.1.0:
+"irc-framework@file:../irc-framework":
   version "4.1.0"
-  resolved "https://registry.yarnpkg.com/irc-framework/-/irc-framework-4.1.0.tgz#5db583f0184f30a0694dd7b0b2dd91d537fa99f2"
   dependencies:
     eventemitter3 "^2.0.2"
     iconv-lite "^0.4.11"
@@ -3758,6 +3757,7 @@ irc-framework@4.1.0:
     middleware-handler "^0.2.0"
     runes "^0.4.3"
     socksjs "^0.5.0"
+    utf-8-validate "^5.0.2"
 
 is-absolute-url@^2.0.0:
   version "2.1.0"
@@ -4933,6 +4933,11 @@ node-fetch@2.1.2:
 node-forge@0.7.5:
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.5.tgz#6c152c345ce11c52f465c2abd957e8639cd674df"
+
+node-gyp-build@~3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-3.7.0.tgz#daa77a4f547b9aed3e2aac779eaf151afd60ec8d"
+  integrity sha512-L/Eg02Epx6Si2NXmedx+Okg+4UHqmaf3TNcxd50SF9NQGcJaON3AtU++kax69XV7YWz4tUspqZSAsVofhFKG2w==
 
 node-libs-browser@^2.0.0:
   version "2.1.0"
@@ -7528,6 +7533,13 @@ urlsafe-base64@^1.0.0, urlsafe-base64@~1.0.0:
 use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
+
+utf-8-validate@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/utf-8-validate/-/utf-8-validate-5.0.2.tgz#63cfbccd85dc1f2b66cf7a1d0eebc08ed056bfb3"
+  integrity sha512-SwV++i2gTD5qh2XqaPzBnNX88N6HdyhQrNNRykvcS0QKvItV9u3vPEJr+X5Hhfb1JC0r0e1alL0iB09rY8+nmw==
+  dependencies:
+    node-gyp-build "~3.7.0"
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
